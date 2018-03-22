@@ -1,0 +1,78 @@
+:root:{
+	font-size:24px;
+}
+
+html,body{
+	height:100vh;
+	width:100vw;
+	padding:0;
+	margin:0;
+}
+
+.container{
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-color: white;
+}
+.form-control{
+	font-family: "FontAwesome"
+}
+.ichat{
+	height:11.17vh;
+}
+th{
+	font-size: 100%;
+}
+
+td{
+	font-size: 100%;
+}
+
+.chat-l{
+	background-color:white;
+	width:45vw;
+	font-size: 100%;
+	margin-left:5%;
+	padding-left: 2%;
+}
+
+.chat-r{
+	background-color:white;
+	width:45vw;
+	margin-left:1%;
+	font-size: 100%;
+	padding-left: 4%;
+}
+
+.t_time{
+	float:right;
+	font-size: 10px;
+	margin-top:1%;
+	margin-right: 1%;
+}
+
+.text_message{
+	display: table-cell;
+	vertical-align: top;
+	font-size:1rem;
+}
+
+.form-online{
+	background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    font-size:1rem;
+    width:100%
+}
